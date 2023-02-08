@@ -1,0 +1,14 @@
+.items{
+    background-color:  rgb(196, 99, 234);
+    border-radius: 10px;
+    padding: 0 25px;
+    margin: 0 25px;
+    font-family: 'Times New Roman', Times, serif;
+    box-shadow: 5px;
+    cursor: pointer;
+    
+    &:hover{
+
+        background-color:rgb(148, 165, 100);
+    }
+};

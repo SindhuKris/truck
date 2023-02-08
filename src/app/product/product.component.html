@@ -1,0 +1,4 @@
+ <button class="items" *ngFor="let content of contents" [routerLink]="[content.name]">
+    {{content.name}}
+</button>
+<router-outlet></router-outlet>

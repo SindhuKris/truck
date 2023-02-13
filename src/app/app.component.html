@@ -13,6 +13,11 @@
     <li><button class="industries" routerLink="industries">Industries</button></li>
     <li><button class="resources" routerLink="resources">Resources</button></li>
   </div>
+  <ul>
+    <li *ngFor="let item of data">
+      {{item.title}}
+    </li>
+  </ul>
 
 <router-outlet></router-outlet>
 </body>

@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
+import { HttpClientModule } from '@angular/common/http';
 
 const route:Routes=[
   {
@@ -37,6 +38,7 @@ const route:Routes=[
   imports: [
     BrowserModule,
     RouterModule.forRoot(route),
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
